@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Jug Challenge</title>
+</head>
+<body>
+    <h1>Water Jug Challenge</h1>
+    <label for="bucketX">Bucket X (Capacity): </label>
+    <input type="number" id="bucketX" required><br><br>
+
+    <label for="bucketY">Bucket Y (Capacity): </label>
+    <input type="number" id="bucketY" required><br><br>
+
+    <label for="targetZ">Target Amount (Z): </label>
+    <input type="number" id="targetZ" required><br><br>
+
+    <button onclick="solve()">Find Solution</button>
+
+    <h2>Solution Steps</h2>
+    <div id="solution"></div>
+
+    <script src="waterJugLogic.js"></script>
+</body>
